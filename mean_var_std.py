@@ -3,7 +3,7 @@ def calculate(list):
     if len(list) != 9:
         print("length must be 9 ")
     else:
-        print("this is your list{}".format(list))
+        print("The list is{}".format(list))
         array = np.array(list).reshape(3,3)
         print("--------------------")
         print("The array is: ")
@@ -18,6 +18,4 @@ def calculate(list):
 
         calculations = {'mean': mean,'variance': variance,'standard deviation': standard_deviation,'min': min, 'sum': sum}
     return calculations
-        
-
-calculate([0,1,2,3,4,5,6,7,8])       
+            
